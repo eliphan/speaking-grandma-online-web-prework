@@ -17,6 +17,6 @@ def speak_to_grandma (phrase)
     puts "NO, NOT SINCE 1983!"
     elsif phrase == "I LOVE YOU GRANDMA!"
     puts "I LOVE YOU TO PUMPKIN!"
-  else 
+  else phrase == downcase
     puts "HUH?! SPEAK UP, SONNY!"
   end
